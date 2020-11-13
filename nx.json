@@ -22,5 +22,22 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "angularapp": {
+      "tags": []
+    },
+    "counter": {
+      "tags": []
+    },
+    "reactapp": {
+      "tags": []
+    },
+    "reactapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reactapp"]
+    },
+    "ngcounter": {
+      "tags": []
+    }
+  }
 }

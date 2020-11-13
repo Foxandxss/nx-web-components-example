@@ -15,7 +15,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ejemplo/counter": ["libs/counter/src/index.ts"],
+      "@ejemplo/ngcounter": ["libs/ngcounter/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
